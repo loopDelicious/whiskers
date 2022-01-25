@@ -1,13 +1,13 @@
 openapi: 3.0.0
 info:
   version: '1.0.0'
-  title: 'Inventory API'
+  title: 'Inventory API!'
 servers:
   - url: 'localhost:3000'
 paths:
   /user:
     get:
-      summary: 'Sample endpoint: Returns details about a particular user'
+      summary: 'Sample endpoint: Returns details about a particular exciting user'
       operationId: listUser
       tags:
         - user
